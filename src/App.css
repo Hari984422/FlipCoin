@@ -1,0 +1,24 @@
+.coin{
+  width: 200px;
+}
+.coin :active{
+  transform: rotateX(690deg) rotateZ(690deg);
+  transition: 3s;
+}
+.App{
+  position: fixed;
+  left: 40%;
+  top: 20%;
+ 
+}
+body{
+  background-image: url(../public/img1.jpg) ;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+}
+.App h1{
+  position: relative;
+  right: 50px;
+}
